@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#F5F7FA">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="APLIKASI KALKULATOR"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#263238"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Silakan pilih menu"
+        android:textSize="16sp"
+        android:textColor="#607D8B"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btnKalkulator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kalkulator"/>
+
+    <Button
+        android:id="@+id/btnTentang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tentang"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/buttonHistory"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:text="Riwayat"
+        android:layout_marginTop="12dp"/>
+
+</LinearLayout>
